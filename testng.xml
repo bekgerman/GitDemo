@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+
+<listeners>
+<listener class-name= "Test.Listener"/>
+</listeners>
+  
+  <test name="Personal Loan">
+  
+  <parameter name="URL" value="PersonalLOAN.COM"/>
+  <parameter name="APIKey/username" value="12345"/>
+   
+    <classes>
+      <class name="Test.Basics">
+      <methods>
+      <include name="realMadrid"/>
+      </methods>
+      </class>
+      
+      
+      <class name="Test.day1"/>
+      <class name="Test.day3">
+      <methods>
+      <exclude name="WebLoginCarLoan"/>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  
+  <test name="Home Loan">
+    <parameter name="URL" value="HomeLOAN.COM"/>
+ <classes>
+ 
+       <class name="Test.day2">
+       <methods>
+      <exclude name="Mobile.*"/>
+      
+       </methods>
+       
+       </class>
+  
+  </classes>
+  </test> 
+</suite> 
