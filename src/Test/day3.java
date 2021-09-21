@@ -14,6 +14,8 @@ public class day3 {
 	public void beforeClass()
 	{
 		System.out.println("BeforeClass is executed before any method in the Class");
+		System.out.println("BeforeClass is executed before any method in the Class1");
+		System.out.println("BeforeClass is executed before any method in the Class2");
 	}
 	
 	@AfterClass
