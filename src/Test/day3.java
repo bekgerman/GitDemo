@@ -26,6 +26,11 @@ public class day3 {
 	public void WebLoginCarLogin()
 	{
 		System.out.println("WebLoginCarLoan");
+		System.out.println("WebLoginCarLoan");
+		System.out.println("WebLoginCarLoan");
+		System.out.println("WebLoginCarLoan");
+		System.out.println("WebLoginCarLoan");
+		System.out.println("WebLoginCarLoan");
 	}
 	
 	@Parameters({ "URL", "APIKey/username" })
