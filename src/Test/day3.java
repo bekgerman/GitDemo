@@ -22,6 +22,9 @@ public class day3 {
 	public void afterClass()
 	{
 		System.out.println("I will execute it as AfterClass");
+		System.out.println("I will execute it as AfterClass");
+		System.out.println("I will execute it as AfterClass");
+		System.out.println("I will execute it as AfterClass");
 	}
 	
 	@Test
@@ -54,6 +57,12 @@ public class day3 {
 	public void LoginAPICarLoan()
 	{
 		System.out.println("LoginAPICarLoan");
+	}
+	
+	@Test
+	public void LoginAPICarLoan1()
+	{
+		System.out.println("LoginAPICarLoan1");
 	}
 	}
 
