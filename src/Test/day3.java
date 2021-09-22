@@ -64,6 +64,12 @@ public class day3 {
 	{
 		System.out.println("LoginAPICarLoan1");
 	}
+	
+	@Test
+	public void LoginAPICarLoan2()
+	{
+		System.out.println("LoginAPICarLoan");
+	}
 	}
 
 

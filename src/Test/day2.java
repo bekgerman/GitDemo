@@ -12,6 +12,9 @@ public class day2 {
 	public void WebLoginHomeLogin()
 	{
 		System.out.println("WebLoginHomeLoan");
+		System.out.println("WebLoginHomeLoan");
+		System.out.println("WebLoginHomeLoan");
+		
 	}
 	
 	
